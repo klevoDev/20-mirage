@@ -1,5 +1,5 @@
 .wrapper {
-    padding: 56px 0;
+    margin: 56px 0;
 }
 
 .container {
@@ -7,4 +7,58 @@
     margin: 0 auto;
     padding: 0 15px;
     box-sizing: content-box;
+}
+
+.label {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 143%;
+
+    color: #f78cb6;
+
+    margin-bottom: 29px;
+}
+
+.text {
+    font-family: $fontProximaNova;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: 0.02em;
+    max-width: 537px;
+
+    color: #919299;
+}
+
+.wrap-button {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+
+    letter-spacing: 0.02em;
+}
+
+.button {
+    position: relative;
+
+    padding: 18px 85px 18px 22px;
+    background-color: #f78bb6;
+    border-radius: 4px;
+    color: #fff;
+
+    transition: all 0.3s ease 0s;
+
+    &:hover {
+        filter: drop-shadow(10px 10px 20px rgba(250, 141, 184, 0.2));
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 16px;
+        right: 23px;
+
+        height: 32px;
+        width: 43px;
+        background: url("./../img/button-img.png") 0 0 / contain no-repeat;
+    }
 }

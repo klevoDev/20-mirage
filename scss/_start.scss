@@ -1,2 +1,56 @@
 .start {
+    &__row {
+        display: flex;
+    }
+
+    &__body {
+        flex: 1 1 auto;
+        padding: 18px 0 0 8px;
+    }
+
+    &__label {
+        position: relative;
+
+        padding-left: 43px;
+        margin-bottom: 29px;
+
+        &::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 10px;
+
+            width: 36px;
+            height: 3px;
+            background: #f78cb6;
+        }
+    }
+
+    &__heading {
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 116%;
+
+        color: #56597a;
+
+        margin-bottom: 31px;
+    }
+
+    &__text {
+        margin-bottom: 42px;
+    }
+
+    &__wrap-button {
+    }
+
+    &__button {
+    }
+
+    &__wrap-image {
+        flex: 0 0 532px;
+    }
+
+    &__image {
+        max-width: 100%;
+    }
 }
