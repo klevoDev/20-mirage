@@ -8,7 +8,7 @@
     }
 
     &__logo {
-        font-family: "Josefin Sans";
+        font-family: "Josefin Sans", sans-serif;
         font-weight: 700;
         font-size: 30px;
         line-height: 100%;
@@ -21,7 +21,7 @@
     }
 
     &__strong-logo {
-        color: #f087b1;
+        color: $colorPink;
     }
 
     &__nav {
@@ -40,11 +40,11 @@
     }
 
     &__ref {
-        color: #aaaaab;
+        color: $colorlightGray;
         transition: all 0.3s ease 0s;
 
         &:hover {
-            color: #56597a;
+            color: $colorDarkGray;
         }
     }
 
@@ -59,7 +59,7 @@
         &::before {
             content: "";
             position: absolute;
-            background-color: #aaaaab;
+            background-color: $colorlightGray;
             right: 0;
             top: 0;
 
@@ -70,7 +70,7 @@
         &::after {
             content: "";
             position: absolute;
-            background-color: #aaaaab;
+            background-color: $colorlightGray;
             right: 0;
             bottom: 0;
 
@@ -83,7 +83,7 @@
         &::before {
             content: "";
             position: absolute;
-            background-color: #aaaaab;
+            background-color: $colorlightGray;
             top: 11px;
             right: 0;
 

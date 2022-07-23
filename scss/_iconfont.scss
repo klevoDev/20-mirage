@@ -21,15 +21,50 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-._icon-bug:before {
+._icon-pancakes:before {
   content: "\e900";
 }
-._icon-layers:before {
+
+._icon-case:before {
   content: "\e901";
 }
-// ._icon-cube:before {
-//   content: "\e902";
-// }
-._icon-cube::after {
+
+._icon-arrow::before {
   content: "\e902";
+}
+
+._icon-cubitos:before {
+  content: "\e903";
+}
+
+._icon-cube:before {
+  content: "\e904";
+}
+
+._icon-mail:before {
+  content: "\e905";
+}
+
+._icon-insta:before {
+  content: "\e906";
+}
+
+._icon-twitter:before {
+  content: "\e907";
+}
+
+._icon-youtube:before {
+  content: "\e908";
+}
+
+._icon-facebook:before {
+  content: "\e909";
+}
+
+._icon-c:before {
+  content: "\e90a";
+}
+
+._icon-world:before {
+  content: "\e90b";
 }
