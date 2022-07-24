@@ -354,6 +354,10 @@ body {
   margin-bottom: 53px;
 }
 
+.page__teamwork {
+  margin-bottom: 133px;
+}
+
 .start__row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -577,4 +581,40 @@ body {
 
 .design__text {
   margin-bottom: 40px;
+}
+
+.teamwork__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.teamwork__body {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  padding: 76px 75px 0 23px;
+}
+
+.teamwork__label {
+  margin-bottom: 15px;
+}
+
+.teamwork__subheading {
+  margin-bottom: 24px;
+}
+
+.teamwork__text {
+  max-width: 520px;
+  margin-bottom: 40px;
+}
+
+.teamwork__wrap-picture {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 587px;
+          flex: 0 0 587px;
+}
+
+.teamwork__picture {
+  max-width: 100%;
 }
