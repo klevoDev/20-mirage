@@ -362,6 +362,10 @@ body {
   margin-bottom: 96px;
 }
 
+.page__brands {
+  margin-bottom: 183px;
+}
+
 .start__row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -675,4 +679,27 @@ body {
   font-size: 16px;
   line-height: 200%;
   color: #ababab;
+}
+
+.brands__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 -15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.brands__column {
+  padding: 0 45px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 20%;
+          flex: 0 1 20%;
+}
+
+.brands__pic {
+  max-width: 100%;
 }
