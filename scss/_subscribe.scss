@@ -1,0 +1,95 @@
+.subscribe {
+    &__subheading {
+        text-align: center;
+
+        margin-bottom: 18px;
+    }
+
+    &__text {
+        text-align: center;
+        margin: 0 auto;
+
+        margin-bottom: 15px;
+    }
+
+    &__form {
+    }
+
+    &__wrap-input {
+        position: relative;
+
+        max-width: 706px;
+        height: 82px;
+
+        margin: 0 auto;
+
+        &::before {
+            position: absolute;
+            top: 34px;
+            left: 27px;
+
+            font-size: 19px;
+            color: #d2d2d2;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: 28px;
+            right: 23px;
+
+            width: 38px;
+            height: 28px;
+            background: url("./../img/arrow-subs.png") 0 0 / contain no-repeat;
+            cursor: pointer;
+        }
+    }
+
+    &__input {
+        width: 100%;
+        height: 100%;
+
+        box-shadow: 20px 20px 40px rgba(205, 205, 205, 0.25);
+        border-radius: 4px;
+
+        padding-left: 60px;
+        padding-right: 210px;
+
+        font-family: "Proxima Nova", sans-serif;
+        font-size: 20px;
+        line-height: 160%;
+
+        color: #000;
+
+        outline: none;
+    }
+
+    &__input::placeholder {
+        color: #d2d2d2;
+    }
+
+    &__btn {
+        position: absolute;
+        top: 14px;
+        right: 13px;
+
+        width: 178px;
+        height: 54px;
+
+        box-shadow: 10px 10px 20px rgba(250, 141, 184, 0.2);
+        background: #f78cb6;
+        border-radius: 4px;
+
+        padding-left: 17px;
+        padding-right: 69px;
+
+        font-weight: 450;
+        font-size: 20px;
+        line-height: 150%;
+
+        letter-spacing: 0.02em;
+
+        color: #fff;
+        cursor: pointer;
+    }
+}
