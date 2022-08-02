@@ -1,0 +1,242 @@
+.footer {
+    &__row {
+        display: flex;
+    }
+
+    &__column {
+        box-sizing: content-box;
+        &_col-1 {
+            flex: 0 1 290px;
+            padding: 0 105px 0 0;
+        }
+
+        &_col-2 {
+            flex: 0 1 191px;
+            padding: 0 41px 0 105px;
+        }
+
+        &_col-3 {
+            flex: 0 1 191px;
+            padding: 0 37.5px 0 41px;
+        }
+
+        &_col-4 {
+            flex: 0 1 190px;
+            padding: 0 0 0 37.5px;
+        }
+    }
+
+    &__mirage {
+    }
+
+    &__resouces {
+    }
+
+    &__about {
+    }
+
+    &__helpful {
+    }
+
+    &__info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: $colorPink;
+        padding: 12px 0;
+    }
+
+    &__copy {
+        font-weight: 450;
+        font-size: 14px;
+        line-height: 214%;
+
+        letter-spacing: 0.02em;
+
+        color: #fff;
+    }
+
+    &__wrap-language {
+        position: relative;
+
+        padding: 0 13px 0 41px;
+
+        ::before {
+            position: absolute;
+            top: -6px;
+            left: 0;
+
+            font-size: 28px;
+        }
+
+        ::after {
+            position: absolute;
+            top: 0;
+            right: 0;
+
+            width: 8px;
+            height: 8px;
+            background: url("./../img/down-arrow.png") 0 0 / contain no-repeat;
+        }
+    }
+
+    &__language {
+        color: #fff;
+    }
+}
+
+.mirage {
+    margin-bottom: 77px;
+
+    &__logo {
+        margin-bottom: 38px;
+    }
+
+    &__logo-link {
+        color: $colorDarkGray;
+    }
+
+    &__strong-logo {
+        color: $colorPink;
+    }
+
+    &__text {
+        font-family: "Proxima Nova", sans-serif;
+        font-size: 20px;
+        line-height: 160%;
+
+        letter-spacing: 0.02em;
+
+        color: #919299;
+
+        margin-bottom: 38px;
+    }
+
+    &__label {
+        font-family: "Proxima Nova", sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 160%;
+        letter-spacing: 0.02em;
+
+        color: #919299;
+
+        margin-bottom: 16px;
+    }
+
+    &__social {
+        display: flex;
+    }
+
+    &__item {
+        position: relative;
+
+        width: 41px;
+        height: 41px;
+        border-radius: 50%;
+        box-shadow: 5px 5px 10px rgba(208, 192, 192, 0.25);
+        margin-right: 11px;
+    }
+
+    &__item-youtube {
+        position: relative;
+
+        width: 41px;
+        height: 41px;
+        border-radius: 50%;
+        box-shadow: 5px 5px 10px rgba(208, 192, 192, 0.25);
+        margin-right: 11px;
+    }
+
+    &__ref-youtube {
+        font-size: 22px;
+        color: #a7a7a7;
+
+        transition: all 0.3s ease 0s;
+
+        &::before {
+            position: absolute;
+            transform: translate(28%, 43%);
+        }
+
+        &:hover {
+            color: $colorPink;
+        }
+    }
+
+    &__ref {
+        font-size: 22px;
+        color: #a7a7a7;
+
+        transition: all 0.3s ease 0s;
+
+        &::before {
+            position: absolute;
+            transform: translate(43%, 43%);
+        }
+
+        &:hover {
+            color: $colorPink;
+        }
+    }
+}
+
+.resouces {
+    &__subtitle {
+    }
+
+    &__list {
+    }
+
+    &__item {
+        margin-bottom: 25px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &__ref {
+        color: #919299;
+    }
+}
+
+.about {
+    &__subtitle {
+    }
+
+    &__list {
+    }
+
+    &__item {
+        margin-bottom: 25px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &__ref {
+        color: #919299;
+    }
+}
+
+.helpful {
+    &__subtitle {
+    }
+
+    &__list {
+    }
+
+    &__item {
+        margin-bottom: 25px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &__ref {
+        color: #919299;
+    }
+}

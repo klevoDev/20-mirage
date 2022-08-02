@@ -1,5 +1,9 @@
 .wrapper {
     margin: 56px 0;
+    overflow: hidden;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .container {
@@ -7,6 +11,15 @@
     margin: 0 auto;
     padding: 0 15px;
     box-sizing: content-box;
+}
+
+.logo {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100%;
+
+    letter-spacing: 0.02em;
 }
 
 .label {
@@ -87,4 +100,23 @@
     line-height: 212%;
 
     color: $colorDarkGray;
+}
+
+.subtitle {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 133%;
+    letter-spacing: 0.02em;
+
+    color: $colorDarkGray;
+
+    margin-bottom: 37px;
+}
+
+.footer-list {
+    font-family: "Proxima Nova", sans-serif;
+    font-size: 20px;
+    line-height: 160%;
+
+    letter-spacing: 0.02em;
 }
