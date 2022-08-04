@@ -86,3 +86,15 @@
         }
     }
 }
+
+@media (max-width: 767px) {
+    .header {
+        &__item {
+            margin-left: 0;
+        }
+
+        &__ref {
+            display: none;
+        }
+    }
+}

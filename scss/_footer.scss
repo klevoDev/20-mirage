@@ -37,52 +37,6 @@
 
     &__helpful {
     }
-
-    &__info {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color: $colorPink;
-        padding: 12px 0;
-    }
-
-    &__copy {
-        font-weight: 450;
-        font-size: 14px;
-        line-height: 214%;
-
-        letter-spacing: 0.02em;
-
-        color: #fff;
-    }
-
-    &__wrap-language {
-        position: relative;
-
-        padding: 0 13px 0 41px;
-
-        ::before {
-            position: absolute;
-            top: -6px;
-            left: 0;
-
-            font-size: 28px;
-        }
-
-        ::after {
-            position: absolute;
-            top: 0;
-            right: 0;
-
-            width: 8px;
-            height: 8px;
-            background: url("./../img/down-arrow.png") 0 0 / contain no-repeat;
-        }
-    }
-
-    &__language {
-        color: #fff;
-    }
 }
 
 .mirage {

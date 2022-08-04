@@ -37,3 +37,58 @@
     &__button {
     }
 }
+
+@media (max-width: 1335px) {
+    .design {
+        &__row {
+            flex-wrap: wrap-reverse;
+            justify-content: center;
+        }
+
+        &__body {
+            padding: 0;
+            margin-bottom: 30px;
+        }
+
+        &__label {
+            text-align: center;
+        }
+
+        &__subheading {
+            text-align: center;
+        }
+
+        &__text {
+            text-align: center;
+            margin: 0 auto;
+
+            margin-bottom: 50px;
+        }
+
+        &__wrap-button {
+            text-align: center;
+
+            margin-bottom: 30px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .design {
+        &__label {
+            font-size: 23px;
+        }
+
+        &__subheading {
+            font-size: 40px;
+        }
+
+        &__text {
+            text-align: justify;
+        }
+
+        &__wrap-img {
+            flex: 0 0 300px;
+        }
+    }
+}

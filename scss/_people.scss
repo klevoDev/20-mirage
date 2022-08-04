@@ -130,3 +130,58 @@
         }
     }
 }
+
+@media (max-width: 1335px) {
+    .people {
+        &__row {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        &__column {
+            padding: 15px;
+            flex: 0 1 33.3334%;
+        }
+    }
+}
+
+@media (max-width: 1023px) {
+    .people {
+        &__row {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        &__column {
+            padding: 15px;
+            flex: 0 1 50%;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .people {
+        &__label {
+            font-size: 23px;
+        }
+
+        &__subheading {
+            font-size: 40px;
+        }
+
+        &__row {
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 0 -15px;
+        }
+
+        &__column {
+            padding: 15px;
+            flex: 0 1 90%;
+        }
+
+        &__logo-card {
+            margin-bottom: 10px;
+        }
+    }
+}

@@ -1,9 +1,8 @@
 .brands {
     &__row {
         display: flex;
-        flex-wrap: wrap;
         margin: 0 -15px;
-        align-items: center;
+        justify-content: center;
     }
 
     &__column {
@@ -15,6 +14,33 @@
     }
 
     &__pic {
-        max-width: 100%;
+    }
+}
+
+@media (max-width: 1335px) {
+    .brands {
+        &__row {
+            flex-wrap: wrap;
+        }
+
+        &__column {
+            padding: 45px;
+            flex: 0 1 33.3334%;
+        }
+
+        &__wrap-pic {
+        }
+
+        &__pic {
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 1023px) {
+    .brands {
+        &__column {
+            flex: 0 1 90%;
+        }
     }
 }
